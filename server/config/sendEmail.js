@@ -27,7 +27,8 @@ try {
 
       return data
 } catch (e) {
-    console.log(e);
+  console.error("Failed to send email:", error.response || error.message);
+  throw error;
 }
 }
 

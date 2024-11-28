@@ -64,7 +64,7 @@ const userSchema = new mongoose.Schema({
     type: String,
     default: null,
   },
-  forget_password_expiry: {
+  forgot_password_expiry: {
     type: Date,
     default: "",
   },

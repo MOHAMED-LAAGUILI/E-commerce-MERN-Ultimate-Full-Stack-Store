@@ -62,7 +62,9 @@
   - `npm i resend`  
   - Service to send transactional emails (e.g., email verification).
 
-npm i cloudinary
+- **Cloudinary**  
+- `npm i cloudinary` 
+  - Service to store images  and use the optimized link for Perfermance purpesses.
 
 
 npm i multer
